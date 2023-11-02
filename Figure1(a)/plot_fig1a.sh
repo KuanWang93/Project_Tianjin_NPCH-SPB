@@ -7,7 +7,7 @@ gmt gmtset FONT_TITLE 12p
 gmt gmtset FONT_ANNOT_PRIMARY  12p
 
 #PS=fault.ps
-PS=Fig1(a).ps
+PS=Fig1a.ps
 
 R=-R116.25/118.7/38.35/40.08
 J=-JM20c
