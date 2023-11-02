@@ -15,13 +15,13 @@ R=-R116.69/118.07/38.57/39.7
 J=-JM20c
 I=-I0.001
 
-in=/project/xhu/xiao/new_tianjin/plot/plot_total_subsidence/get_shp/tianjin_county.shp
-out=/project/xhu/xiao/new_tianjin/plot/plot_total_subsidence/get_shp/tj_boundary_line.shp
+in=/project/wang/kuan/new_tianjin/plot/plot_total_subsidence/get_shp/tianjin_county.shp
+out=/project/wang/kuan/new_tianjin/plot/plot_total_subsidence/get_shp/tj_boundary_line.shp
 
-hebei=/project/xhu/xiao/new_tianjin/plot/plot_total_subsidence/get_shp/hebei.shp
-beijing=/project/xhu/xiao/new_tianjin/plot/plot_total_subsidence/get_shp/beijing.shp
+hebei=/project/wang/kuan/new_tianjin/plot/plot_total_subsidence/get_shp/hebei.shp
+beijing=/project/wang/kuan/new_tianjin/plot/plot_total_subsidence/get_shp/beijing.shp
 
-coast=/project/xhu/xiao/new_tianjin/plot/plot_total_subsidence/get_shp/tj_coastal_line.shp
+coast=/project/wang/kuan/new_tianjin/plot/plot_total_subsidence/get_shp/tj_coastal_line.shp
 
 ####################################################Base Map 1#########################################################
 gmt psbasemap $R $J  -X2c -Yc -Bx0.5 -By0.5 -BWS -K > $PS
