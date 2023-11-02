@@ -44,7 +44,7 @@ gmt grdimage $R $J gebco_2022.nc  -Ii_dem1.nc -Ctest.cpt -O -K >> $PS
 # gmt psxy -R -J $hebei -W0.8p,black,solid -O -K >> $PS
 
 gmt psclip new_polygon.gmt -R -J -K -O >> $PS
-gmt grdimage lr_velocity_2016_2019.grd -R -J -Cmy4.cpt -Q -K -O >> $PS
+gmt grdimage lr_velocity_2016.0_2019.5.grd -R -J -Cmy4.cpt -Q -K -O >> $PS
 gmt psclip -C -K -O >> $PS
 
 gmt psxy -R -J $coast -W0.8p,black,solid -G176/226/255 -O -K >> $PS
