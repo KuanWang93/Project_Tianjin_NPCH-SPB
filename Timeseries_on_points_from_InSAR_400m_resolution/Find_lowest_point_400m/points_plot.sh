@@ -10,7 +10,7 @@ gmt gmtset MAP_TICK_LENGTH -0.1
 gmt gmtset MAP_GRID_PEN_PRIMARY=0.25P,gray,-
 gmt gmtset LABEL_OFFSET 0.05i
 
-source_dir="/project/xhu/xiao/new_tianjin/collection_time_series/Archive/datafile/LOWESS_points_ts_400m"
+source_dir="/project/wang/kuan/new_tianjin/collection_time_series/Archive/datafile/LOWESS_points_ts_400m"
 
 for file in "${source_dir}"/LOWESS_point_*_ts.txt; do
   # Extract the well number from the file name
@@ -19,8 +19,8 @@ for file in "${source_dir}"/LOWESS_point_*_ts.txt; do
   # Define the output file name for the plot
     PS=Point_${point_number}_plot.ps
     ####InSAR
-    InSAR_input=/project/xhu/xiao/new_tianjin/collection_time_series/Archive/datafile/LOWESS_points_ts_400m/LOWESS_point_${point_number}_ts.txt
-    result_file="/project/xhu/xiao/new_tianjin/collection_time_series/Find_lowest_point_400m/Result.txt"
+    InSAR_input=/project/wang/kuan/new_tianjin/collection_time_series/Archive/datafile/LOWESS_points_ts_400m/LOWESS_point_${point_number}_ts.txt
+    result_file="/project/wang/kuan/new_tianjin/collection_time_series/Find_lowest_point_400m/Result.txt"
 
     ###################################################################################InSAR Data################################################################################
     # min_InSAR=$(awk 'NR == 1 || $2 < min {min = $2} END {print min-50}' $InSAR_input)
