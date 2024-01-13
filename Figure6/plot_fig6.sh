@@ -138,7 +138,7 @@ echo 117.02 38.6	 "2" |gmt pstext  -J -R -K -O -F+f9p,1 >> $PS
 gmt gmtset FONT_LABEL 10.5p
 gmt gmtset FONT_ANNOT_PRIMARY 10.5p
 ##################################################################Scale Bar######################################################################
-gmt psscale -R -J -DjBC+w6c/0.35c+o2.55i/0.22i+m+e -Ctest3.cpt -Bxa2f1 -K -O >> $PS
+gmt psscale -R -J -DjBC+w6c/0.35c+o2.55i/0.22i+m+e -Ctest3.cpt -Bxa2f1g1 -K -O >> $PS
 echo 117.825 38.635	 "Establishment of New Pre-consolidation Head" |gmt pstext -R -J -O -F+f10p,4 >> $PS
 
 
